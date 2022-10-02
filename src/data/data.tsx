@@ -4,7 +4,7 @@ import {
   DownloadIcon,
   
   MapIcon,
-  
+  OfficeBuildingIcon,
   SparklesIcon,
 } from '@heroicons/react/outline';
 
@@ -104,7 +104,7 @@ export const aboutData: About = {
     {label: 'Location', text: 'Madison, WI', Icon: MapIcon},
     {label: 'Age', text: '22', Icon: CalendarIcon},
     {label: 'Phone', text: '3097036757', Icon: SparklesIcon},
-    {label: 'Email', text: 'yfan233@wisc.edu', Icon: SparklesIcon},
+    {label: 'Email', text: 'yfan233@wisc.edu', Icon: OfficeBuildingIcon},
     {label: 'Study', text: 'University of Wisconsin-Madison', Icon: AcademicCapIcon},
     
   ],
