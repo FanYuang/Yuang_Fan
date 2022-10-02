@@ -98,8 +98,8 @@ export const heroData: Hero = {
 export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `My name is Yuang Fan, and you can call me Jeremy. Now I major in information science where I will take courses about computer
-  science, data science and user experience design, and I will graduate in December 2023. My past experience has equipped with a lot of technique skills like web development and data scraping, like React,
-  Node.js,Vue.js and Express.js.And I want to find an internship and continue to work in the software development field after I graduate.`,
+  science, data science and user experience design, and I will graduate in December 2023. My past experience has equipped with a lot of technique skills like web development and data scraping, like React.js, 
+  Node.js, Vue.js and Express.js. And I want to find an internship and continue to work in the software development field after I graduate.`,
   aboutItems: [
     {label: 'Location', text: 'Madison, WI', Icon: MapIcon},
     {label: 'Age', text: '22', Icon: CalendarIcon},
