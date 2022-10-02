@@ -1,5 +1,4 @@
 import {FC, memo} from 'react';
-
 import {education, work,research, SectionId, skills} from '../../../data/data';
 import Section from '../../Layout/Section';
 import ResumeSection from './ResumeSection';
