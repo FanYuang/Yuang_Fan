@@ -338,7 +338,7 @@ did and how efficient we were about completing development requirements in the p
   {
     date: 'Nov 2021 – Jan 2022',
     location: 'Software Programming Intern',
-    title: 'Solacetree Counselling LimitedSolacetree Counselling Limited',
+    title: 'Solacetree Counselling Limited',
     content: (
       <div> 
       <p>Tech stack: Expo(React Native)</p>
