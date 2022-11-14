@@ -44,7 +44,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: 'Yuang Fan Website',
-  description: "Example site built with Tim Baker's react resume template",
+  description: "Personal website of Yuang Fan",
 };
 
 /**
