@@ -10,10 +10,10 @@ import {
 
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
-import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import QuoteIcon from '../components/Icon/QuoteInIcon';
+
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import DribbbleIcon from '../components/Icon/DribbbleIcon';
+
+
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
@@ -433,7 +433,7 @@ export const contact: ContactSection = {
 export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/FanYuang'},
 
-  {label: 'LinkedIn', Icon: DribbbleIcon, href: 'https://leetcode.com/handsomefanfan/'},
+  {label: 'Leetcode', Icon: StackOverflowIcon, href: 'https://leetcode.com/handsomefanfan/'},
   {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/ricerice_666'},
   
 ];
