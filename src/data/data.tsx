@@ -432,7 +432,7 @@ export const contact: ContactSection = {
 export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/FanYuang'},
   {label: 'Linkedin', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/jeremy-fan-6b5453251/'},
-  {label: 'Leetcode', Icon: StackOverflowIcon, href: 'https://leetcode.com/handsomefanfan/'},
+
   {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/ricerice_666'},
   
 ];
