@@ -53,7 +53,7 @@ export const homePageMeta: HomepageMeta = {
  * Section definition
  */
 export const SectionId = {
-  Hero: 'hero',
+  Hero: 'Introduction',
   About: 'about',
  
  
@@ -74,12 +74,13 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a first year student in the Master of information science program of <strong className="text-stone-100">University of Wisconsin-Madison</strong>, and I really want to
-        find an internship which is about frontend development or backend development.
+        I am a student in the Master of information science program of <strong className="text-stone-100">University of Wisconsin-Madison</strong>. I am actively seeking an internship in the field of software engineering, with a particular interest in frontend or backend development.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In the past, I have gain some work experience about frontend development, backend development, data scraping and analyze, and machine learning.Therefore, I think I am qualified
-        for an intern opportunity about software engineering.
+      I have practical experience in frontend development, backend development, data scraping and analysis, as well as machine learning. I believe my skills and dedication make me a strong candidate for an internship opportunity in software engineering. I am eager to contribute to a dynamic team and continue expanding my knowledge and expertise.
+      </p>
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+      I would greatly appreciate any guidance or support in finding an internship that aligns with my goals. Thank you for considering my application, and I look forward to the opportunity to contribute to your organization.
       </p>
     </>
   ),
@@ -99,12 +100,10 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `My name is Yuang Fan, and you can call me Jeremy. Now I major in information science where I will take courses about computer
-  science, data science and user experience design, and I will graduate in December 2023. My past experience has equipped with a lot of technique skills like web development and data scraping, like React.js, 
-  Node.js, Vue.js and Express.js. And I want to find an internship and continue to work in the software development field after I graduate.`,
+  description: "My name is Yuang Fan, and you can call me Jeremy. I am currently majoring in Information Science and will be graduating in December 2023. My studies have focused on computer science, data science, and user experience design. Additionally, I have gained practical experience in various technical skills, such as web development and data scraping, with proficiency in technologies like React.js, Node.js, Vue.js, and Express.js. I am now actively seeking a full-time position in the field of full-stack development or software development. With my strong foundation in both front-end and back-end technologies, I am confident in my ability to contribute to a dynamic software development team. I am eager to apply my knowledge and skills to create innovative and efficient solutions. If you have any opportunities or recommendations, I would greatly appreciate your assistance in finding a suitable position.",
   aboutItems: [
     {label: 'Location', text: 'Madison, WI', Icon: MapIcon},
-    {label: 'Age', text: '22', Icon: CalendarIcon},
+    {label: 'Age', text: '23', Icon: CalendarIcon},
     {label: 'Phone', text: '3097036757', Icon: SparklesIcon},
     {label: 'Email', text: 'yfan233@wisc.edu', Icon: OfficeBuildingIcon},
     {label: 'Study', text: 'University of Wisconsin-Madison', Icon: AcademicCapIcon},
