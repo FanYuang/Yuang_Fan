@@ -74,13 +74,13 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I am a student in the Master of information science program of <strong className="text-stone-100">University of Wisconsin-Madison</strong>. I am actively seeking an internship in the field of software engineering, with a particular interest in frontend or backend development.
+        I am a student in the Master of information science program of <strong className="text-stone-100">University of Wisconsin-Madison</strong>. I am actively seeking a full-time position in the field of software engineering, with a particular interest in frontend or backend development.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-      I have practical experience in frontend development, backend development, data scraping and analysis, as well as machine learning. I believe my skills and dedication make me a strong candidate for an internship opportunity in software engineering. I am eager to contribute to a dynamic team and continue expanding my knowledge and expertise.
+      I have practical experience in frontend development, backend development, data scraping and analysis, as well as machine learning. I believe my skills and dedication make me a strong candidate for a full-time position in software engineering. I am eager to contribute to a dynamic team and continue expanding my knowledge and expertise.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-      I would greatly appreciate any guidance or support in finding an internship that aligns with my goals. Thank you for considering my application, and I look forward to the opportunity to contribute to your organization.
+      I would greatly appreciate any guidance or support in finding a full-time job that aligns with my goals. Thank you for considering my application, and I look forward to the opportunity to contribute to your organization.
       </p>
     </>
   ),
