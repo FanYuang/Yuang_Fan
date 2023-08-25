@@ -79,9 +79,7 @@ export const heroData: Hero = {
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
       I have practical experience in frontend development, backend development, data scraping and analysis, as well as machine learning. I believe my skills and dedication make me a strong candidate for a full-time position in software engineering. I am eager to contribute to a dynamic team and continue expanding my knowledge and expertise.
       </p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-      I would greatly appreciate any guidance or support in finding a full-time job that aligns with my goals. Thank you for considering my application, and I look forward to the opportunity to contribute to your organization.
-      </p>
+  
     </>
   ),
   actions: [
@@ -323,6 +321,37 @@ constructa learned index.</p></div>
   },
 ];
 export const work: TimelineItem[] = [
+  {
+    date: 'Apr 2023 – Present',
+    location: 'Research Assistant',
+    title: 'The Chinese University of Hong Kong Shenzhen Research Institute',
+    content: (
+    <div>
+    <p>Tech stack: Next.js, Tailwind CSS, Node.js (Express framework), Mongodb Atlas (mongoose framework)</p>
+    <p>• Developed a visualization website for stock prediction recommendations using the specified tech stack.(Website Link: <a href="https://alfa-cuhk.vercel.app/">https://alfa-cuhk.vercel.app/</a>.)Main Responsibilities:</p>
+
+    <ul>
+    <li>• Built frontend interface using Next.js and Tailwind CSS, ensuring responsive design and user experience. Implemented global state management using Context API to share data between components. Used Localstorage to save login states and information to avoid repeated logins.</li>
+    <li>• Set up backend API using Node.js with the Express framework to handle frontend requests and interact with the Mongodb Atlas database. </li>
+    <li>• Implemented a DatePicker component to enable users to easily choose specific date ranges for querying and analyzing stock data.</li>
+    <li>• Used Chart.js and Echarts libraries to create various stock-related charts such as candlestick charts, line charts, and bar charts. These charts provide intuitive insights into stock trends and historical data, aiding users in understanding the stock market.</li>
+    <li>• Deployed the backend project using render, deployed the frontend project using Vercel, achieving CI/CD for the project.</li>
+    </ul>
+    </div>
+    ),
+    },
+{
+  date: 'Nov 2022 – Apr 2023',
+  location: 'Software engineer intern',
+  title: 'IpserLab',
+  content: (
+  <div>
+  <p>Tech stack: React.js, Node.js</p>
+  <p>• Gathered information about universities and university-affiliated startup companies online</p>
+  <p>• Developed the frontend component of a data visualization system to allow users to access this information</p>
+  </div>
+  ),
+},
   {
     date: 'Jun 2022 – Jul 2022',
     location: 'Developer',
