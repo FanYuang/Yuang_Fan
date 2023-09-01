@@ -84,7 +84,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: './Yuang Fan Resume.pdf',
+      href: './Jeremy Yuang Fan Resume.pdf',
       text: 'Resume',
       primary: true,
       Icon: DownloadIcon,
@@ -333,8 +333,9 @@ Backend work involved Node.js, Express, and MongoDB Atlas for APIs, user authent
   content: (
   <div>
   <p>Tech stack: React.js, Node.js</p>
-  <p>• Gathered information about universities and university-affiliated startup companies online</p>
-  <p>• Developed the frontend component of a data visualization system to allow users to access this information</p>
+  <p>• Crawl university-related information and university-related start-up information from diverse online sources.
+</p>
+  <p>• Design the wireframe of the dashboard and develop the dashboard with React.</p>
   </div>
   ),
 },
@@ -361,9 +362,9 @@ longevity and continuous evolution.</p>
     content: (
       <div> 
       <p>Tech stack: Expo(React Native)</p>
-      <p>• Communicated with users to get their feedback and did the corresponding improvement in the mobile application</p>
-      <p>• Developed H5 mobile website and app in both IOS and Android systems using expo(react native)</p>
-      <p>• Collaborated closely with the back-end development team and used the API developed by the back-end team</p>
+      <p>• Transformed an H5 project into an Android app by making modifications within the node modules. </p>
+      <p>• Collaborated with the backend team to coordinate and implement calls to backend interfaces.</p>
+      <p>• Executed customized modifications on the company's official website developed by WIX.</p>
      </div>
     ),
   },
@@ -374,9 +375,9 @@ longevity and continuous evolution.</p>
     content: (
       <div> 
     <p>Tech stack: Node.js, Express</p>
-    <p>• Crawled data and game-related information on gamespot.com and metacritic.com</p>
+    <p>• Crawl and extract data and game-related information from gamespot.com and metacritic.com.</p>
     <p>• Filtered out less related review information and designed the database structure to store the data</p>
-    <p>• Performed data analysis to study the user background and user behavior on posting reviews
+    <p>• Conducted comprehensive data analysis to gain insights into user behaviors concerning review postings.
 </p></div>
     )
   },
@@ -387,16 +388,16 @@ longevity and continuous evolution.</p>
     content: (
       <div> 
       <p>Tech stack: Taro(React native)+Node.js(Express framework)+MongoDB(Mongoose framework) </p>
-      <p>• Conducted user research on the possible improvement on the existing word memorizing applications and communicated
-with the team about how to write the application
+      <p>• Used Taro framework to develop a WeChat mini program for word memorizing.
 </p>
-      <p>• Developed the prototype of the “my vocabulary” feature with Axure</p>
-      <p>• Used Taro(React) framework to develop a WeChat mini program for word memorizing</p>
-      <p>• Crawled Youdao Dictionary by SuperAgent and parsed the HTML in the text field of response by Cheerio</p>
-      <p>• Applied css@keyframe proficiently to realize various animation effects and page functions in the front end</p>
+      <p>• Utilizing the SuperAgent library, conducted web scraping of Youdao Dictionary, followed by parsing the retrieved
+HTML using the Cheerio library and save the audio pronunciations files</p>
+      <p>• Employed CSS @keyframes to craft many animation effects, while utilizing functional components and hooks.</p>
+      <p>• Developed a range of backend API using Node.js and the Express framework, facilitating interaction with the frontend</p>
+      <p>• Integrated Baidu's image recognition API to identify vocabulary from images uploaded by users.</p>
       <p>• Wrote various routers and developed restful API in the backend with Node.js(Express framework)</p>
-      <p>• Designed algorithms of vocabulary measurement based on word frequency analysis</p>
-      <p>• Used aaPanel to operate and maintain backend servers</p>
+      <p>• Incorporated the node-schedule module to ensure user words were periodically pushed to their word bank</p>
+      <p>• Employed the aaPanel for backend maintenance and deployment, ensuring the application's stability and availability.</p>
      </div>
     ),
   },
