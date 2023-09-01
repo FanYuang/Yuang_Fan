@@ -278,17 +278,14 @@ export const education: TimelineItem[] = [
   {
     date: 'Sept 2022 – Dec 2023',
     title: 'University of Wisconsin-Madison',
-    location: 'Master of Information Science',
+    location: 'Master of Information Science  GPA:3.92/4.0   ',
     content: <p></p>,
   },
   {
     date: 'Sept 2018 – Jul 2022',
     title: 'The Chinese University of Hong Kong(CUHK)',
-    location: 'Bachelor of Engineering: Financial Technology',
-    content: <div><p>Relevant Courses: System Simulation, Advanced Database Technologies, Problem Solving by Programming, Optimization
-    Methods, Computer Network, Fundamentals in Information Systems, Data Structures, Cyber Security</p><br /> 
-    <p>Award: Outstanding Students Award (2019)
-    </p></div>,
+    location: 'Bachelor of Engineering: Financial Technology  Second upper class honor    ',
+    content: <div></div>,
   },
 ];
 export const research: TimelineItem[] = [
@@ -306,19 +303,7 @@ export const research: TimelineItem[] = [
 constructa learned index.</p></div>
     ),
   },
-  {
-    date: 'Jul 2021 – Nov 2021',
-    location: 'Business School Research Assistant (remote)',
-    title: 'Zhejiang University & York University',
-    content: (
-      <div> 
-    <p>Tech stack: Node.js, Express</p>
-    <p>• Crawled data and game-related information on gamespot.com and metacritic.com</p>
-    <p>• Filtered out less related review information and designed the database structure to store the data</p>
-    <p>• Performed data analysis to study the user background and user behavior on posting reviews
-</p></div>
-    )
-  },
+
 ];
 export const work: TimelineItem[] = [
   {
@@ -331,11 +316,12 @@ export const work: TimelineItem[] = [
     <p>• Developed a visualization website for stock prediction recommendations using the specified tech stack.(Website Link: <a href="https://alfa-cuhk.vercel.app/">https://alfa-cuhk.vercel.app/</a>.)Main Responsibilities:</p>
 
     <ul>
-    <li>• Built frontend interface using Next.js and Tailwind CSS, ensuring responsive design and user experience. Implemented global state management using Context API to share data between components. Used Localstorage to save login states and information to avoid repeated logins.</li>
-    <li>• Set up backend API using Node.js with the Express framework to handle frontend requests and interact with the Mongodb Atlas database. </li>
+    <li>•  Created a user-friendly frontend with Next.js, Tailwind CSS, and global state management through Context API.
+Backend work involved Node.js, Express, and MongoDB Atlas for APIs, user authentication and data storage.
+   </li>
     <li>• Implemented a DatePicker component to enable users to easily choose specific date ranges for querying and analyzing stock data.</li>
-    <li>• Used Chart.js and Echarts libraries to create various stock-related charts such as candlestick charts, line charts, and bar charts. These charts provide intuitive insights into stock trends and historical data, aiding users in understanding the stock market.</li>
-    <li>• Deployed the backend project using render, deployed the frontend project using Vercel, achieving CI/CD for the project.</li>
+    <li>• Utilized Chart.js and Echarts libraries to create various stock-related charts.</li>
+    <li>• Deployed the frontend project on Vercel and the backend project on Render, establishing a CI/CD workflow.</li>
     </ul>
     </div>
     ),
@@ -359,9 +345,12 @@ export const work: TimelineItem[] = [
     content: (
       <div> 
     <p>Tech stack: Java & MDX(similar to SQL)</p>
-    <p>• Wrote MDX to analyze and draw tables of project management-related data in Jira to help demonstrate what the team
-did and how efficient we were about completing development requirements in the past few years</p>
-    <p>• Modified some API in the system based on the requirements of the leader</p>
+    <p>• Employed MDX queries within the easyBI platform to dissect and visualize Jira data pertinent to project management.
+Demonstrated the team's historical contributions and our adeptness in fulfilling development requisites.</p>
+<p>• Formulated MDX queries to produce a diverse range of graphs, including trend analyses and bar charts. These visuals
+effectively conveyed project insights and trends to the team.</p>
+    <p>• Assumed responsibility for comprehending and upholding system documentation and code, thereby ensuring its
+longevity and continuous evolution.</p>
    </div>
     ),
   },
@@ -377,6 +366,19 @@ did and how efficient we were about completing development requirements in the p
       <p>• Collaborated closely with the back-end development team and used the API developed by the back-end team</p>
      </div>
     ),
+  },
+  {
+    date: 'Jul 2021 – Nov 2021',
+    location: 'Research Assistant',
+    title: 'Zhejiang University & York University',
+    content: (
+      <div> 
+    <p>Tech stack: Node.js, Express</p>
+    <p>• Crawled data and game-related information on gamespot.com and metacritic.com</p>
+    <p>• Filtered out less related review information and designed the database structure to store the data</p>
+    <p>• Performed data analysis to study the user background and user behavior on posting reviews
+</p></div>
+    )
   },
   {
     date: 'Apr 2021 – Jul 2021',
